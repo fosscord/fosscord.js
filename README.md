@@ -20,7 +20,7 @@
 fosscord.js is a fork of [discord.js](https://discord.js.org/) that allows you to easily interact with the
 [Fosscord API](https://docs.fosscord.com/) and is backwards compatible to discord.js.
 
-### Fosscord.js
+### Discord.js
 
 - Object-oriented
 - Predictable abstractions
@@ -101,7 +101,7 @@ const rest = new REST({ version: '9' }).setToken('token');
 Afterwards we can create a quite simple example bot:
 
 ```js
-const { Client, Intents } = require('fosscord.js');
+const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.on('ready', () => {
@@ -125,7 +125,7 @@ client.login('token');
 - [Documentation](https://docs.fosscord.com) ([source](https://github.com/fosscord/fosscord-docs))
 - [Fosscord Discord server](https://discord.gg/ZrnGQP6p3d)
 - [Discord.js Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide)) - this is still for stable
-- [fosscord.js Discord server](https://discord.gg/ZrnGQP6p3d)
+- [Discord.js Discord server](https://discord.gg/djs)
 - [GitHub](https://github.com/fosscord/fosscord.js)
 - [NPM](https://www.npmjs.com/package/fosscord.js)
 
