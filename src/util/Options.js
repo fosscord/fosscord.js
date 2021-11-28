@@ -130,7 +130,7 @@ class Options extends null {
       http: {
         version: 9,
         api: 'https://api.fosscord.com',
-        cdn: 'https://cdn.discordapp.com',
+        cdn: 'https://cdn.fosscord.com',
         invite: 'https://discord.gg',
         template: 'https://discord.new',
       },
