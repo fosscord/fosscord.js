@@ -4,7 +4,7 @@
 const DJSCollection = require('@discordjs/collection');
 const EventEmitter = require('events');
 const Coll = DJSCollection.default || DJSCollection;
-console.log(Coll);
+
 /**
  * A Collection which holds a max amount of entries and sweeps periodically.
  * @param {Iterable} [iterable=null] Optional entries passed to the Map constructor.
